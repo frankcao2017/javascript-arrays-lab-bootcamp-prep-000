@@ -30,6 +30,7 @@ function prependKitten() {
 }
 
 function removeLastKitten() {
-  var newArrs1 = kittens.shift()
+  var kittens = ["Milo","Otis","Garfield"];
+  var newArrs1 = kittens.pop()
   return newArrs1
 }
