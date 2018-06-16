@@ -34,3 +34,9 @@ function removeLastKitten() {
   newArrs1.pop()
   return newArrs1
 }
+
+function removeLastKitten() {
+  var newArrs1 = kittens.slice()
+  newArrs1.pop()
+  return newArrs1
+}
